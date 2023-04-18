@@ -1,0 +1,71 @@
+* {
+    background-color:rgb(37, 37, 37);
+    color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    text-align: center;
+}
+
+.contenido {
+    position: relative;
+    width: 100%; 
+    height: 100vh;
+}
+
+.datos {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.messirve {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 20vw;
+
+}
+
+.imagenDeMessi {
+    width: 100%;
+}
+
+.imagenNucba {
+    display: inline-block;
+    border: 1px solid white;
+    width: 40%;
+    min-width: 100px;
+}
+
+.formulario {
+    display: inline-block;
+    top: 0px;
+    width: 55%;
+    border: 1px solid white;
+
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 25px;
+    font-style: italic;
+}
+
+hr {
+    border: 1px solid gray;
+}
+
+footer {
+    background-color: gray;
+}
+
+small {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+}
